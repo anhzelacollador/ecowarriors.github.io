@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/bsdws9J/Eco-Warriors.png" alt="Eco-Warriors" width="1350" height="120"> </a>
+    
+    
+    
+    <style>
+button{
+padding: 27px 170px;
+  background-color:green;
+  font-size: 150%;
+  font-family: georgia;
+  color: white;
+  font-weight: 900;
+}
+button:hover {
+  background-color: gray;
+}
+
+</style>
+
+
+<div id="main">
+  <div class="tab" >
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Facts')">Facts</button>
+  <button class="tablinks" onclick="openCity(event, 'About Us')">About Us</button>
+</div>
+</div>
+
+<div id="Home" class="tabcontent">
+  <h3 style=color:green;font-style:serif></h3>
+  <p></p>
+</div>
+
+<div id="Facts" class="tabcontent">
+  <h3 style="color:MediumSeaGreen;font-family:georgia;font-size:190%; text-decoration: underline; text-align:center">Interesting Facts About Plastics That You Need To Know</h3>
+  <p style="font-size:170%;font-family:verdana">• Since the 1950s, around 8.3 billion tons of plastic have been produced worldwide <br> <br> • In some parts of the world, using plastic is already illegal <br> <br> • 73% of beach litter worldwide is plastic <br> <br> • A million plastic bottles are bought around the world every minute <br> <br> • Worldwide, about 2 million plastic bags are used every minute <br> <br> • 90% of plastic polluting our oceans is carried by just 10 rivers <br> <br> • Plastic is killing more than 1.1 million seabirds and animals every year <br> <br> • The average person eats 70,000 microplastics each year <br> <br> • The average time that a plastic bag is used for is 12 minutes <br> <br> • Over the past 50 years, world plastic production has doubled</p>
+</div>
+
+<div id="About Us" class="tabcontent">
+  <h3 style="color:MediumSeaGreen;font-family:georgia;font-size:190%; text-decoration: underline; text-align:center">About Us</h3>
+  <p style="font-size:170%;font-family:verdana; text-align:justify">The purpose of this site is to inform you, readers, that using too much plastic is really a big problem here in our country and it has a lot of negative effects. If we don’t take initiative to consume less plastic in our daily lives, plastic pollution here in Philippines might get worse and we might often experience floodings than we are experiencing now. So, in this site we provide you practical and easy steps on how to consume less plastic in our daily lives. </p>
+</div>
+
+<div class="clearfix"> </div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+    
+    
+    <br> <br>
+    
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 3000px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.slideshow-container {
+  width: 1350px;
+}
+
+</style>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRv8OsoW1Ya6r46rPcAnXjg4Ts4PNfmO7pvBItspC5dS8mcXEN5" style="width:100%; height=550">
+</div>
+
+
+<div class="mySlides fade">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKaOzky6rDxqcqpsqScZwA12Dk3WHjxv1NlblN3YEcU7UJVAI2" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTw6KoPofTOgKW27_3VxpH1zHSkwa0rdVXeBwLF0VZOa5pjyZLM" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+     <h1 style="color:green; font-family:georgia; text-align:center">USING TOO MUCH PLASTICS THAT CAUSE FLOODING</h1>
+     
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: mediumseagreen;
+}
+</style>
+     <div class="row" align="center"> </div>
+  <div class="column">
+    <div class="card">
+      <h3 style="color:black; font-size:180%; font-family:georgia; font-style: italic">What is environmental literacy?</h3>
+      <p style="font-size:170%; font-family:verdana">An individual’s understanding, skills and motivation to make responsible decisions that considers his or her relationships to natural systems, communities and future generations.<br> <br> <br> </p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3 style="color:black; font-size:180%; font-family:georgia; font-style: italic">What is the effect of using too much plastic in environment?</h3>
+      <p style="font-size:170%; font-family:verdana">Plastic is now one of the country’s top pollutants of some bodies of water. Unfortunately, most of these buoyant materials end up in the open seas. It can damage or pollute bodies of water and can result to flood. <br></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3 style="color:black; font-size:180%; font-family:georgia; font-style: italic">What is the significance of this study?</h3>
+      <p style="font-size:170%; font-family:verdana">It can educate our participants about plastic pollution. We can convince them to use less plastic in their everyday lives. It can give our participants some knowledge or ideas on how to contribute less in plastic pollution. <br> <br> </p>
+    </div>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+    
+         
+     <h1 style="color:green; font-family:georgia; text-align:left">Root Cause Analysis</h1>
+      
+       <p style="text-align:center; font-size:190%">“Humans using too much plastics which swirling in waterways, garbage clogging drainage canals and huge stinking dump sites"</p>
+       <p style="text-align:center; font-size:190%">↓</p>
+       <p style="text-align:center; font-size:190%"> An absence of garbage collection services in secondary cities and many of the country’s smaller islands</p>
+       <p style="text-align:center; font-size:190%">↓</p>
+       <p style="text-align:center; font-size:190%">Funds earmarked for waste disposal are vulnerable to corruption, and local governments lack the political will</p>
+       <p style="text-align:center; font-size:190%">↓</p>
+       <p style="text-align:center; font-size:190%">Uneducated about the waste management act</p>
+       <p style="text-align:center; font-size:190%">↓</p>
+       <p style="text-align:center; font-size:190%">Lack of initiative</p>
+       <p style="text-align:center; font-size:190%">↓</p>
+       <p style="text-align:center; font-size:190%"> They think that plastic pollution is not a big deal here in Philippines</p>
+      
+      <h1 style="color:green; font-family:georgia; text-align:left">Problem to be Solved</h1>
+       <p style="text-align:center; border-style:dashed; font-size:200%; font-family:verdana"> <strong>“Humans using too much plastics which swirling in waterways, garbage clogging drainage canals and huge stinking dump sites" <br> </strong></p>
+       <img src="http://www.indiawaterportal.org/sites/indiawaterportal.org/files/paondhio-waste.jpg" alt="plastics" width="1400" height="500">
+       
+       <br>
+      
+      <br> <h1 style="color:green; font-family:georgia; text-align:left">How can we convince people to consume less plastic?</h1> <br> <br>
+        <iframe width="700" height="330" src="https://www.youtube.com/embed/OagTXWfaXEo" frameborder="100" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br> <br> <p style="font-size:190%">Related Videos<p> <a style="font-size:150%; align:left" href="https://youtu.be/K9ojpJBSTw8">12 Cheap & Easy Tips for Reducing Your Waste - Sustainable Zero Waste Hacks</a> <br> <br> <a style="font-size:150%; align:left" href="https://youtu.be/Vgn3r-WncTM">7 Easy Ways to Use Less Plastic!</a> <br> <br> <a style="font-size:150%; text-align:left" href="https://youtu.be/-EEMit5sr5s">What If Plastic Was Never Invented?</a>
+
+           <br> <br>
+           
+      <h1 style="color:green; font-family:georgia; text-align:left">Possible Solutions</h1>
+    
+       <h1 style="color:#00b300; text-align:left; font-family: georgia">Buy in bulk</h1>
+       <img src="https://static1.insider.com/image/5a15cb773339b0af008b4570-1200/know-what-to-buy-in-bulk.jpg" alt="buying in bulk" width="1350" height="500">
+       source: https://static1.insider.com/image/5a15cb773339b0af008b4570-1200/know-what-to-buy-in-bulk.jpg
+       
+        <p style="font-size:160%;font-family:verdana; text-align:justify; border-style:double; border-color: green">By shopping at bulk food stores you will reduce both your packaging waste and also your food waste. Buying in bulk eliminates the need for fancy packaging & single-use plastic. Bulk goods require less overall transportation because there are less packaging components that must be produced and transported prior to being filled. Generally speaking buying in bulk is cheaper. <br> <br> Here are some of the shopping centers in the Philippines that offer bulk buying: <br> <br> <a href="https://www.justgola.com/a/mall-999-2074061">999 Shopping Mall</a> <br> <a href="https://www.inspirock.com/philippines/manila/168-shopping-mall-a978815649">168 Shopping Mall</a> <br> <a href="http://www.snrshopping.com/">S&R Membership Shopping</a> <br> <a href="https://en.yelp.com.ph/search?cflt=contractors&find_loc=Manila%2C%20Metro%20Manila">Greenhills Shopping Center</a> <br> <br></p>
+        
+        
+        
+        
+       <h1 style="color:#00b300; text-align:left; font-family: georgia">Use reusable shopping bags</h1>
+       <img src="https://www.thespruce.com/thmb/vZ9ykej_NrvCIdpC1VnjBjCthGY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-147041313-5c55f344c9e77c000159a650.jpg" alt="reusable shopping bags" width="1350" height="500">
+       source: https://www.thespruce.com/thmb/vZ9ykej_NrvCIdpC1VnjBjCthGY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-147041313-5c55f344c9e77c000159a650.jpg
+    
+       <br>
+        <p style="font-size:160%;font-family:verdana; text-align:justify; border-style:double; border-color: green">By bringing your own reusable bag, you are saving money each time you go to the grocery store, buy a new outfit, or run errands. By using a reusable bag, you are not only reducing the amount of non-renewable resources necessary to produce plastic bags, but you’re also reducing the amount of money your community spends on clean up costs each year. They are reliable, you can use them for multiple purposes. <br> <br> There's an audio below that will answer the question "Why should you use reusable bags?": <br> <br> <audio controls="" autoplay="" name="media"><source src="https://www.youtube.com/watch?v=76RkQhL7cRg" type="audio/mp3"></audio> <br> <br> </p>
+
+    
+
+       <h1 style="color:#00b300; text-align:left; font-family: georgia">Invest in reusable containers</h1>
+       <img src="https://cdn11.bigcommerce.com/s-posvvy/images/stencil/1200x1800/products/51095/123988/525373__03449.1529328210.jpg" width="1350" height="450">
+       source: https://cdn11.bigcommerce.com/s-posvvy/images/stencil/1200x1800/products/51095/123988/525373__03449.1529328210.jpg
+       <img src="https://image.slidesharecdn.com/princyagarwal-170616085440/95/pharmaceutical-containers-and-closures-an-overview-5-638.jpg?cb=1551883358" width="1350" height="450">
+        source: https://image.slidesharecdn.com/princyagarwal-170616085440/95/pharmaceutical-containers-and-closures-an-overview-5-638.jpg?cb=1551883358
+   
+   <br>
+        <p style="font-size:160%;font-family:verdana; text-align:justify; border-style:double; border-color: green">Reusable packaging is expressly designed to make multiple trips, so it is constructed of durable, lasting materials. The initial cost of this type of distribution packaging is more than the price of single use throwaway containers, but the investment is quickly recovered through repeated uses. Adopting reusable designs supports a larger push to minimize the environmental impact of packaging. <br> <br></p>
+        
+         
+          
+       <h1 style="color:#00b300; text-align:left; font-family: georgia">Look for alternatives in packaging</h1>
+       <img src="https://www.sld.com/wp-content/uploads/2019/02/Plastic-Packaging-Alternatives-1280x480.jpg" width="1350" height="450">
+       source: https://www.sld.com/wp-content/uploads/2019/02/Plastic-Packaging-Alternatives-1280x480.jpg
+       
+        <br>
+        <p style="font-size:160%;font-family:verdana; text-align:justify; border-style:double; border-color: green">Eco-friendly packaging is better for the environment as it is made of recycled waste material which reduces the consumption of resources. Don’t focus only on your financial goals only but try to meet your environmental goals as well. The type of packaging you use may vary but it should either be compostable or recyclable. Using eco-friendly packaging allows you to reduce the amount of plastic that you use. <br> <br> Here are some alternatives to plastic that you can actually use: (<a href="https://www.innovationexcellence.com/blog/2018/07/02/13-plastic-packaging-alternatives/">13 Plastic Packaging Alternatives</a>) <br> <br> <a href="https://medium.com/wedonthavetime/ikea-starts-using-biodegradable-mushroom-based-packaging-for-its-products-42d079f98bb1">Mushroom Root Packaging</a> <br> <a href="https://ecopack.co.za/everything-you-need-to-know-about-bagasse/">Bagasse Packaging</a> <br> <a href="https://www.designboom.com/technology/skipping-rocks-lab-ooho-edible-water-bottle-04-12-2017/">Seaweed Water Bubbles Packaging</a> <br> <a href="https://www.craftbeer.com/editors-picks/saltwater-brewery-creates-edible-six-pack-rings">Edible Six-Pack Rings Packaging</a> <br> <a href="https://www.nationalgeographic.com/environment/2018/09/angelina-arora-teenager-created-plastic-shrimp-science-fair/">Prawn Shell Packaging</a> <br> <br> </p>
+
+
+
+
+       <h1 style="color:#00b300; text-align:left; font-family: georgia">Compost</h1>
+        <img src="https://media.greenmatters.com/brand-img/ItPnJ/0x0/what-is-composting-1539283210573-1539283216657.jpg" width="1350" height="450">
+       source: https://media.greenmatters.com/brand-img/ItPnJ/0x0/what-is-composting-1539283210573-1539283216657.jpg
+     
+       <br>
+       <p style="font-size:160%;font-family:verdana; text-align:justify; border-style:double; border-color: green">Enriches soil, helping retain moisture and suppress plant diseases and pests. Reduces the need for chemical fertilizers.
+       Encourages the production of beneficial bacteria and fungi that break down organic matter to create humus, a rich nutrient-filled material.
+       Reduces methane emissions from landfills and lowers your carbon footprint. <br> <br> Here's a video to help you on how to compost at your own house: <br> <br> <iframe width="650" height="390" src="https://www.youtube.com/embed/ZAMy_ZJ0Xa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </p>
+
+    
+<br>
+
+<style>
+table {
+  font-family: verdana;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 0.5px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: green;
+}
+</style>
+
+ <h1 style="color:green; font-family:georgia; text-align:left">Details of the Solution</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Solution</th>
+    <th>How the Solution Works</th>
+    <th>Features of the Solution</th>
+    <th>Benefits of the Solution</th>
+  </tr>
+  <tr>
+    <td>Buy in bulk</td>
+    <td>Bulk purchasing is the purchase of much larger quantities than the usual, for a unit price that is lower than the usual</td>
+    <td>Save money, avoid the risk of selling out</td>
+    <td>It’s cheaper, food stays fresher, it’s personal, fun and interactive</td>
+  </tr>
+  <tr>
+    <td>Use reusable shopping bags</td>
+    <td>Using reusable bags over plastic bags can save money in several areas</td>
+    <td>Cost effective. You can use your cloth shopping bags for years and never throw them away. When they get dirty, it is simple to wash them and keep on using them.</td>
+    <td>Save money, durability and reliability</td>
+  </tr>
+  <tr>
+    <td>Invest in reusable containers</td>
+    <td>Packing this type of lunch will help you reduce the amount of food and packaging waste going into landfills</td>
+    <td>Reusable, durable, safe, recyclable and cheaper</td>
+    <td>Saving money, reduces the amount of material sent to the landfill, reduces the number of those items that suppliers need to make</td>
+  </tr>
+  <tr>
+    <td>Look for alternatives in packaging</td>
+    <td>A process which often involves significant quantities of expensive packaging materials</td>
+    <td>Alternative solutions to plastic packaging that are healthier for humans and the planet</td>
+    <td>Free toxins and allergens, require fewer resources, lower production costs and convenient disposal
+  </tr>
+  <tr>
+    <td>Compost</td>
+    <td>Method for treating solid waste in which organic material is broken down by microorganisms in the presence of oxygen to a point where it can be safely stored</td>
+    <td>They need moisture to be able to decompose the organic matter and also good aeration as they need oxygen, nutrient balance, pH and temperature</td>
+    <td>Enriches soil, helping retain moisture and suppress plant diseases and pests and reduces the need for chemical fertilizers
+  </tr>
+  
+</table>
+
+
+
+ <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+   background-color: MediumSeaGreen;
+}
+</style>
+
+<br>
+
+
+      <h1 style="color:green; font-family:georgia; text-align:left">Context & Constraints</h1>
+      
+      <br>
+    
+<table style="width:100%">
+  <tr>
+    <th style="font-size:190%">Context</th>
+    <th style="font-size:190%">Constraints</th>
+  </tr>
+  <tr>
+    <td style="font-size:190%">-A solution was presented in the form of the Republic Act 9003</td>
+    <td style="font-size:190%">-Local governments in the Philippines have struggled to implement its directives</td>
+  </tr>
+  <tr>
+    <td style="font-size:190%">-Can help inform the public about the gravity of the problem</td>
+    <td style="font-size:190%">-Knowing full well there is no infrastructure to dispose the plastics properly</td>
+  </tr>
+  <tr>
+    <td style="font-size:190%">-We can convince our participants to use reusable stuffs</td>
+    <td style="font-size:190%">-We can’t afford to give them free reusable stuffs like metal straws, tumblers and others</td>
+  </tr>
+</table>
+
+<br>
+
+<h1 style="font-size:180%; text-align:left">REFERENCES:</h1>
+   <p style="font-size:150%; font-family:verdana; text-align:justify">-Tacio, H. (2018, July 3), Plastic Problems, Pollution in the Philippines. Gaia Discovery. Retrieved from <a href="https://www.gaiadiscovery.com/planet/plastic-problems-pollution-philippines"> https://www.gaiadiscovery.com/planet/plastic-problems-pollution-philippines </a> <br> <br> -Felt, C. (2019, January 29), Plastic Waste: Environmental Effects of Plastic Pollution. Thrive Global. Retrieved from <a href="https://thriveglobal.com/stories/plastic-waste-environmental-effects-of-plastic-pollution/"> https://thriveglobal.com/stories/plastic-waste-environmental-effects-of-plastic-pollution/ </a> <br> <br> -Evans, D. (2018, July 17), Benefits of Using Reusable Shopping Bags. Tern Goods. Retrieved from <a href="https://terngoods.com/blogs/learn/benefits-of-using-reusable-shopping-bags"> https://terngoods.com/blogs/learn/benefits-of-using-reusable-shopping-bags</a> <br> <br> -Shaw, R. (2018, May 8), Tapping the Cost & Sustainability Benefits of Reusable Distribution Packaging.  Assemblies Unlimited. Retrieved from <a href="https://www.assemblies.com/reusable-packaging/"> https://www.assemblies.com/reusable-packaging/ </a> <br> <br> -(2017, November 2), 10 Advantages of Green Packaging to the Environment. Green Business Bureau. Retrieved from <a href="https://greenbusinessbureau.com/blog/10-advantages-of-green-packaging-to-the-environment/"> https://greenbusinessbureau.com/blog/10-advantages-of-green-packaging-to-the-environment/ </a> <br> <br> -(2018, October 16), Composting At Home. United States Environmental Protection Agency. Retrieved from  <a href="https://www.epa.gov/recycle/composting-home"> https://www.epa.gov/recycle/composting-home </a> <br> <br> -Vila, A. (2018, October 18), Philippines plastic pollution: Why so much waste ends up in oceans? South China Morning Post. Retrieved from <a href="https://www.scmp.com/lifestyle/health/article/2168819/philippines-plastic-pollution-why-so-much-waste-ends-oceans"> https://www.scmp.com/lifestyle/health/article/2168819/philippines-plastic-pollution-why-so-much-waste-ends-oceans</a> <br> <br> -Mwamba S. (2018, June 14), 10 Facts 10 Facts About Plastic Pollution You Absolutely Need to Know. Global Citizen. Retrieved from <a href="https://www.globalcitizen.org/en/content/plastic-pollution-facts/"> https://www.globalcitizen.org/en/content/plastic-pollution-facts/</a> </p>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 0px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+   
