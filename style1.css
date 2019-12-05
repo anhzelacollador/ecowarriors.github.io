@@ -1,0 +1,14 @@
+ <style>
+button{
+padding: 27px 170px;
+  background-color:green;
+  font-size: 150%;
+  font-family: georgia;
+  color: white;
+  font-weight: 900;
+}
+button:hover {
+  background-color: gray;
+}
+
+</style>
